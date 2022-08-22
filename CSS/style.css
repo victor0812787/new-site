@@ -1,0 +1,34 @@
+body{
+    background: rgb(160, 160, 221);
+    background-size: cover;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+/* start img cart */
+
+.img-cart{
+    margin: 20% 10%;
+}
+.latter-herder .first-latter{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* end img cart */
+
+/* start button cart */
+
+.button-cart{
+    margin: 20% 10%;
+    display: block;
+}
+.first-button .first-first-latter{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
