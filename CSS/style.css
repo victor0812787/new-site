@@ -1,5 +1,5 @@
 body{
-    background: rgb(160, 160, 221);
+    background: whitesmoke;
     background-size: cover;
 }
 .body{
@@ -11,24 +11,199 @@ body{
 /* start img cart */
 
 .img-cart{
-    margin: 20% 10%;
+    margin: 5% 10%;
 }
 .latter-herder .first-latter{
     font-size: 30px;
     font-weight: bold;
-    color: blue;
+    color: rgb(139, 56, 216);
 }
+.button-img{
+    margin-bottom: 5%;
+}
+.first-img-button,
+.second-img-button{
+    width: 80px;
+    height: 5vh;
+    cursor: pointer;
+    background: none;
+    border-color: rgb(139, 56, 216);
+    border-radius: 5px;
+    color: rgb(139, 56, 216);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.first-img-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ .second-img-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
 
 /* end img cart */
 
 /* start button cart */
 
 .button-cart{
-    margin: 20% 10%;
+    margin: 5% 10%;
     display: block;
 }
 .first-button .first-first-latter{
     font-size: 30px;
     font-weight: bold;
-    color: blue;
+    color: rgb(139, 56, 216);
 }
+#first-group{
+    margin-bottom: 5%;
+}
+#button-one,
+#button-two,
+#button-three{
+    width: 70px;
+    height: 5vh;
+    cursor: pointer;
+    background: none;
+    border-color: rgb(139, 56, 216);
+    border-radius: 5px;
+    color: rgb(139, 56, 216);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#button-one:hover{
+   background: rgb(139, 56, 216);
+   color: white;
+}
+#button-two:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #button-three:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+
+ #second-group{
+     margin-bottom: 5%;
+ }
+ #button-four,
+ #button-five,
+ #button-six{
+    width: 70px;
+    height: 5vh;
+    cursor: pointer;
+    background: none;
+    border-color: rgb(139, 56, 216);
+    border-radius: 5px;
+    color: rgb(139, 56, 216);
+    text-transform: capitalize;
+    font-weight: bold;
+ }
+ #button-four:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #button-five:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #button-six:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+
+#three-group{
+    margin-bottom: 5%;
+}
+#button-siven,
+#button-eight{
+    width: 90px;
+    height: 5vh;
+    cursor: pointer;
+    background: none;
+    border-color: rgb(139, 56, 216);
+    border-radius: 5px;
+    color: rgb(139, 56, 216);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#button-siven:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #button-eight:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+
+ /*end button cart  */
+
+
+/* start second button */
+
+.second-latter .second-second-latter{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(139, 56, 216);
+}
+#four-group{
+    margin-bottom: 5%;
+}
+
+#nine-button,
+#ten-button,
+#eleven-button{
+    width: 80px;
+    height: 5vh;
+    cursor: pointer;
+    background: none;
+    border-color: rgb(139, 56, 216);
+    border-radius: 5px;
+    color: rgb(139, 56, 216);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#nine-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #ten-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #eleven-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+
+ #five-group{
+     margin-bottom: 5%;
+ }
+ #twelve-button,
+ #pick-button,
+ #fourteen-button{
+    width: 80px;
+    height: 5vh;
+    cursor: pointer;
+    background: none;
+    border-color: rgb(139, 56, 216);
+    border-radius: 5px;
+    color: rgb(139, 56, 216);
+    text-transform: capitalize;
+    font-weight: bold;
+ }
+ #twelve-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #pick-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+ #fourteen-button:hover{
+    background: rgb(139, 56, 216);
+    color: white;
+ }
+
+
