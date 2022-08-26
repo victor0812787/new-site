@@ -24,14 +24,15 @@ let quiff = document.getElementById('fourteen-button').Value;
 // end second button
 
 // starting hair
-function Hair() {
-    Hair = [nine, curls, short, bang, elegant, quiff]
+function h(Hair) {
+    let hair = 'style';
+    hair = [nine, curls, short, bang, elegant, quiff]
     function nine(){
         nine = [curls, short, bang, elegant, quiff]
         if (nine === '') {
-            return  nine = fetch(Hair, [1, 2, 3, 4, 5]) 
+            return  nine = fetch(hair, [1, 2, 3, 4, 5]) 
         };
     };
 };
-console.log(Hair())
+console.log(h);
 
