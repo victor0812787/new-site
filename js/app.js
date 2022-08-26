@@ -27,8 +27,9 @@ let quiff = document.getElementById('fourteen-button').Value;
 function Hair() {
     Hair = [nine, curls, short, bang, elegant, quiff]
     function nine(){
+        nine = [curls, short, bang, elegant, quiff]
         if (nine === '') {
-            return  nine = fetch(rapidapi.com, [0]) 
+            return  nine = fetch(Hair, [1, 2, 3, 4, 5]) 
         };
     };
 };
