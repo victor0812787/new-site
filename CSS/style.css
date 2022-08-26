@@ -116,7 +116,7 @@ body{
 #three-group{
     margin-bottom: 5%;
 }
-#button-siven,
+#button-seven,
 #button-eight{
     width: 90px;
     height: 5vh;
@@ -128,7 +128,7 @@ body{
     text-transform: capitalize;
     font-weight: bold;
 }
-#button-siven:hover{
+#button-seven:hover{
     background: rgb(139, 56, 216);
     color: white;
  }
