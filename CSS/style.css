@@ -154,7 +154,7 @@ body{
 #nine-button,
 #ten-button,
 #eleven-button{
-    width: 80px;
+    width: 85px;
     height: 5vh;
     cursor: pointer;
     background: none;
@@ -163,6 +163,7 @@ body{
     color: rgb(139, 56, 216);
     text-transform: capitalize;
     font-weight: bold;
+    font-size: 10px;
 }
 #nine-button:hover{
     background: rgb(139, 56, 216);
@@ -183,7 +184,7 @@ body{
  #twelve-button,
  #pick-button,
  #fourteen-button{
-    width: 80px;
+    width: 85px;
     height: 5vh;
     cursor: pointer;
     background: none;
@@ -192,6 +193,7 @@ body{
     color: rgb(139, 56, 216);
     text-transform: capitalize;
     font-weight: bold;
+    font-size: 10px;
  }
  #twelve-button:hover{
     background: rgb(139, 56, 216);
@@ -204,6 +206,9 @@ body{
  #fourteen-button:hover{
     background: rgb(139, 56, 216);
     color: white;
+ }
+ .d-none{
+     display: none;
  }
 
 
