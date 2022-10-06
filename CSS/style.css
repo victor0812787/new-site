@@ -210,5 +210,9 @@ body{
  .d-none{
      display: none;
  }
+ .myStyle{
+     display: flex;
+ }
+
 
 

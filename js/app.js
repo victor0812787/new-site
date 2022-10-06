@@ -26,9 +26,13 @@ function h() {
     bang.innerHTML = 'Short'
     elegant.innerHTML = 'Matte'
     quiff.innerHTML = 'straight'
-    elegant.add()
+    
+    let list = document.getElementById("myDIV");
+    list.classList.remove("d-none");
+    bang.classList.remove("d-none");
 
 }
+
 
 function ER() {
     nine.innerHTML = 'Oblique'
@@ -36,4 +40,87 @@ function ER() {
     short.innerHTML = 'Round'
     bang.innerHTML = 'Triangular'
 
+    let list = document.getElementById("myDIV");
+    list.classList.add("d-none");
+    bang.classList.remove("d-none");
+
+
+}
+
+
+function EY() {
+    nine.innerHTML = 'Refracting'
+    curls.innerHTML = 'Reflecting'
+    short.innerHTML = 'parabolic'
+
+    let list = document.getElementById("myDIV");
+    list.classList.add("d-none");
+    bang.classList.add("d-none");
+
+}
+
+
+function MH() {
+    nine.innerHTML = 'Heart-Shaped'
+    curls.innerHTML = 'Top-Heavy'
+    short.innerHTML = 'Full Lips'
+    bang.innerHTML = 'Thin Lips'
+    elegant.innerHTML = 'Wide Lips'
+    quiff.innerHTML = 'Round Lips'
+    
+    let list = document.getElementById("myDIV");
+    list.classList.remove("d-none");
+    bang.classList.remove("d-none");
+
+}
+
+function NK() {
+    nine.innerHTML = 'Gathered'
+    curls.innerHTML = 'Strapless'
+    short.innerHTML = 'Off Shoulder'
+    bang.innerHTML = 'Halter'
+    elegant.innerHTML = 'Racerback'
+    quiff.innerHTML = 'Plunging'
+    
+    let list = document.getElementById("myDIV");
+    list.classList.remove("d-none");
+    bang.classList.remove("d-none");
+
+}
+
+function LG() {
+    nine.innerHTML = 'Bow-legged'
+    curls.innerHTML = 'Knock-kneed'
+    short.innerHTML = 'FalseCurvature'
+    bang.innerHTML = 'Normal'
+    
+    let list = document.getElementById("myDIV");
+    list.classList.add("d-none");
+    bang.classList.remove("d-none");
+}
+
+function ACS() {
+    nine.innerHTML = 'Jackets'
+    curls.innerHTML = 'Boots&Shoes'
+    short.innerHTML = 'Bracelets'
+    bang.innerHTML = 'Watches'
+    elegant.innerHTML = 'Eyewear'
+    quiff.innerHTML = 'Hats'
+    
+    let list = document.getElementById("myDIV");
+    list.classList.remove("d-none");
+    bang.classList.remove("d-none");
+}
+
+function BG() {
+    nine.innerHTML = 'Edgeless'
+    curls.innerHTML = 'Texture'
+    short.innerHTML = '3D'
+    bang.innerHTML = 'Surface'
+    elegant.innerHTML = 'Color'
+    quiff.innerHTML = 'Visual Cues'
+    
+    let list = document.getElementById("myDIV");
+    list.classList.remove("d-none");
+    bang.classList.remove("d-none");
 }
