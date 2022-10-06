@@ -9,9 +9,13 @@ body{
 }
 
 /* start img cart */
-
+img{
+    width: 50%;
+    border-radius: 20px;
+}
 .img-cart{
     margin: 5% 10%;
+    width: 50%;
 }
 .latter-herder .first-latter{
     font-size: 30px;
@@ -49,6 +53,7 @@ body{
 .button-cart{
     margin: 5% 10%;
     display: block;
+    width: 50%;
 }
 .first-button .first-first-latter{
     font-size: 30px;

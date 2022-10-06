@@ -18,7 +18,7 @@ let elegant = document.getElementById('pick-button');
 let quiff = document.getElementById('fourteen-button');
 // end second button
 
-
+// starting heir
 function h() {
     nine.innerHTML = 'Curly'
     curls.innerHTML = 'Thick'
@@ -31,8 +31,12 @@ function h() {
     list.classList.remove("d-none");
     bang.classList.remove("d-none");
 
-}
+    function ni() {
+        
+    }
 
+}
+// ending heir
 
 function ER() {
     nine.innerHTML = 'Oblique'
