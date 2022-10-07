@@ -19,6 +19,10 @@ let quiff = document.getElementById('fourteen-button');
 // end second button
 
 // starting heir
+
+// img part
+
+// end img part
 function h() {
     nine.innerHTML = 'Curly'
     curls.innerHTML = 'Thick'
@@ -31,11 +35,77 @@ function h() {
     list.classList.remove("d-none");
     bang.classList.remove("d-none");
 
-    function ni() {
-        
-    }
+
+    
+    nine.addEventListener("click", function () {
+        const img = document.querySelector("img"); 
+        img.src = "./IMG/book1.jpg";
+     
+        document.getElementById('image')
+            .style.display = "block";
+    
+        document.getElementById('nine')
+         nine.style.display = "none";
+    })
+
+    curls.addEventListener("click", function () {
+        const img = document.querySelector("img"); 
+        img.src = "./IMG/book1.jpg";
+     
+        document.getElementById('image')
+            .style.display = "block";
+    
+        document.getElementById('nine')
+          curls.style.display = "none";
+    })
+
+    short.addEventListener("click", function () {
+        const img = document.querySelector("img"); 
+        img.src = "./IMG/book1.jpg";
+     
+        document.getElementById('image')
+            .style.display = "block";
+    
+        document.getElementById('nine')
+          short.style.display = "none";
+    })
+
+    bang.addEventListener("click", function () {
+        const img = document.querySelector("img"); 
+        img.src = "./IMG/book1.jpg";
+     
+        document.getElementById('image')
+            .style.display = "block";
+    
+        document.getElementById('nine')
+          bang.style.display = "none";
+    })
+
+    elegant.addEventListener("click", function () {
+        const img = document.querySelector("img"); 
+        img.src = "./IMG/book1.jpg";
+     
+        document.getElementById('image')
+            .style.display = "block";
+    
+        document.getElementById('nine')
+          elegant.style.display = "none";
+    })
+
+    quiff.addEventListener("click", function () {
+        const img = document.querySelector("img"); 
+        img.src = "./IMG/book1.jpg";
+     
+        document.getElementById('image')
+            .style.display = "block";
+    
+        document.getElementById('nine')
+          quiff.style.display = "none";
+    })
 
 }
+
+
 // ending heir
 
 function ER() {
