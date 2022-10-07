@@ -45,7 +45,7 @@ function h() {
             .style.display = "block";
     
         document.getElementById('nine')
-         nine.style.display = "none";
+         .style.display = "none";
     })
 
     curls.addEventListener("click", function () {
@@ -56,7 +56,7 @@ function h() {
             .style.display = "block";
     
         document.getElementById('nine')
-          curls.style.display = "none";
+          .style.display = "none";
     })
 
     short.addEventListener("click", function () {
@@ -67,7 +67,7 @@ function h() {
             .style.display = "block";
     
         document.getElementById('nine')
-          short.style.display = "none";
+          .style.display = "none";
     })
 
     bang.addEventListener("click", function () {
@@ -78,7 +78,7 @@ function h() {
             .style.display = "block";
     
         document.getElementById('nine')
-          bang.style.display = "none";
+          .style.display = "none";
     })
 
     elegant.addEventListener("click", function () {
@@ -89,7 +89,7 @@ function h() {
             .style.display = "block";
     
         document.getElementById('nine')
-          elegant.style.display = "none";
+          .style.display = "none";
     })
 
     quiff.addEventListener("click", function () {
@@ -100,7 +100,7 @@ function h() {
             .style.display = "block";
     
         document.getElementById('nine')
-          quiff.style.display = "none";
+          .style.display = "none";
     })
 
 }
